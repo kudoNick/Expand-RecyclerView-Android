@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgUp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_up"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tvCompany"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Appler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
